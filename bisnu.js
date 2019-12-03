@@ -5,6 +5,8 @@ window.addEventListener("scroll",()=>{
     let right_win = window.innerHeight / 2 ;
     if(right_size < right_win){
         right_contente.classList.add("right_c_e")
+    }else{
+        right_contente.classList.remove("right_c_e")
     }
 })
 
@@ -15,5 +17,7 @@ window.addEventListener("scroll",()=>{
     if(right_size < right_win){
         right_contente.classList.add("left_c_e")
     }
+    else{
+        right_contente.classList.remove("left_c_e")
+    }
 })
-console.log(innerHeight)
